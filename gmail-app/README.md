@@ -51,7 +51,7 @@ Key Features
 - Tailwind CSS
 
 ## conclusion
-- This Gmail clone has successfully duplicate with gmail interface using react and tailwind css and This project demonstrates how to structure React components, implement a dynamic sidebar, tab navigation, and search functionality, and enhance UI with Tailwind CSS styling.
+- This Gmail clone has successfully duplicate with gmail interface using react, html,css and tailwind css and this project demonstrates how to structure React components, implement a dynamic sidebar, tab navigation, and search functionality, and enhance UI with Tailwind CSS styling.
 
 ## Acknowledgments
 - In the era of digital I found G_mail is very important for every person through out the world. so my friend have encourage me to duplicate this web apps and secondly thank you so much our pretty ms. for giving such an opportunity to duplicate this apps.
