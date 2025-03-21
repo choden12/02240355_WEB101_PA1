@@ -18,11 +18,16 @@ const App = () => {
   return (
     <Router>
       <div className="app">
+         {/* Sidebar Component for Navigation */}
         <Sidebar />
         <div className="main-content">
+             {/* Topbar Component */}
           <Topbar />
+           {/* Routing Configuration */}
           <Routes>
+              {/* Main Inbox Page */}
             <Route path="/" element={<InboxPage />} />
+            {/* Other Email Sections */}
             <Route path="/sent" element={<Sent />} />
             <Route path="/snooze" element={<Snoozed />} />
             <Route path="/drafts" element={<Drafts />} />

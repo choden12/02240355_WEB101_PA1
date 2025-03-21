@@ -9,7 +9,7 @@ import {
   CheckSquare,
   Square,
 } from "lucide-react";
-
+// This is for drafts data
 const draftEmails = [
   {
     id: 1,

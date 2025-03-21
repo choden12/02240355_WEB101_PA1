@@ -15,8 +15,9 @@ import SocialTab from "./SocialTab";
 import UpdatesTab from "./UpdatesTab";
 
 const InboxPage = () => {
+  // State to manage the active tab, defaulting to 'primary'
   const [activeTab, setActiveTab] = useState("primary");
-
+// Define tabs with corresponding icons
   const tabs = [
     { name: "primary", label: "Primary", icon: <Inbox size={16} /> },
     { name: "promotions", label: "Promotions", icon: <Tag size={16} /> },

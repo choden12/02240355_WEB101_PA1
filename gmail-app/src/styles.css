@@ -105,7 +105,7 @@ body {
 }
 
 .top-icons {
-  display: flex;
+  display: flex;/* Aligns icons in a row */
   gap: 16px;
   margin-bottom: 20px;
   align-items: center;

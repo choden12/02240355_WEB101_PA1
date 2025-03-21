@@ -1,26 +1,28 @@
+/* This is for Container for the entire mailbox layout */
 .mailbox-container {
   padding: 20px 30px;
   font-family: Arial, sans-serif;
 }
-
+/* Styling for the top icons section */
 .top-icons {
   display: flex;
   gap: 16px;
   margin-bottom: 20px;
   align-items: center;
 }
-
+/* Styling for individual icons */
 .icon {
   color: #5f6368;
   cursor: pointer;
 }
+/* Tabs container at the top */
 .tabs-container {
   display: flex;
   width: 100%;
   border-bottom: 1px solid #e0e0e0;
   margin-bottom: 30px;
 }
-
+/* Styles for tab buttons */
 .tab-button {
   flex: 1;
   display: flex;
@@ -37,7 +39,7 @@
   border-bottom: 3px solid transparent;
   transition: all 0.2s ease;
 }
-
+/* Hover effect for tab buttons */
 .tab-button:hover {
   background-color: #f1f3f4;
 }
@@ -49,6 +51,7 @@
 }
 
 /* ********primary Tab***** */
+/* Main container for the primary tab */
 .primary-tab-container {
   padding: 20px;
 
@@ -57,7 +60,7 @@
   text-align: center;
   animation: fadeIn 1.5s ease-in-out;
 }
-
+/* Typing effect for heading text */
 .typing-text {
   font-size: 2.5rem;
   font-weight: bold;
@@ -69,7 +72,7 @@
   padding-right: 5px;
   animation: typing 4s steps(40) 1s 1 normal both, blink 0.75s step-end infinite;
 }
-
+/* Description text in primary tab */
 .primary-description {
   font-size: 1.2rem;
   color: #333;
@@ -84,7 +87,7 @@
 .primary-description:hover {
   opacity: 1;
 }
-
+/* Typing animation */
 @keyframes typing {
   from {
     width: 0;
@@ -93,7 +96,7 @@
     width: 100%;
   }
 }
-
+/* Cursor blinking animation */
 @keyframes blink {
   50% {
     border-color: transparent;
