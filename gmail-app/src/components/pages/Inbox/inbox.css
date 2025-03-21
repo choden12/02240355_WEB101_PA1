@@ -1,0 +1,101 @@
+.mailbox-container {
+  padding: 20px 30px;
+  font-family: Arial, sans-serif;
+}
+
+.top-icons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.icon {
+  color: #5f6368;
+  cursor: pointer;
+}
+.tabs-container {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 30px;
+}
+
+.tab-button {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 0;
+  font-size: 18px;
+  font-weight: 400px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #5f6368;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.tab-button:hover {
+  background-color: #f1f3f4;
+}
+
+.tab-button.active {
+  color: #1a73e8;
+  font-weight: 500;
+  border-bottom: 3px solid #1a73e8;
+}
+
+/* ********primary Tab***** */
+.primary-tab-container {
+  padding: 20px;
+
+  max-width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.typing-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(45deg, #ff7b7b, #ffb74d);
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  border-right: 3px solid #333;
+  padding-right: 5px;
+  animation: typing 4s steps(40) 1s 1 normal both, blink 0.75s step-end infinite;
+}
+
+.primary-description {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.5;
+  font-family: "Arial", sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.primary-description:hover {
+  opacity: 1;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

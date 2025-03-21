@@ -1,0 +1,215 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+/* Layout */
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+/************Sidebar *******/
+.sidebar {
+  width: 30vh;
+  background: #fcfcfc;
+  padding: 15px;
+}
+.sidebar-menu .menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.sidebar-menu .menu-item .icon {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #333;
+  display: inline-flex;
+}
+
+.sidebar-menu .menu-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.sidebar-menu .menu-item a:hover {
+  background-color: #f1f1f1;
+  border-radius: 5vh;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gmail-logo {
+  height: 10vh;
+  width: auto;
+  object-fit: contain;
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+
+/* ***********Compose******** */
+
+.compose-btn {
+  width: 30vh;
+  padding: 20px;
+  background: #b7dffa;
+  color: rgb(71, 70, 70);
+  border: none;
+  border-radius: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.menu-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar-menu .menu-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-item:hover {
+  background: #f0f0f0;
+}
+
+/* Main Content */
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/********* inbox css *******/
+.mailbox-container {
+  padding: 20px 30px;
+  font-family: Arial, sans-serif;
+}
+
+.top-icons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.icon {
+  color: #5f6368;
+  cursor: pointer;
+}
+.tabs-container {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 30px;
+}
+
+.tab-button {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 0;
+  font-size: 14px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #5f6368;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.tab-button:hover {
+  background-color: #f1f3f4;
+}
+
+.tab-button.active {
+  color: #1a73e8;
+  font-weight: 500;
+  border-bottom: 3px solid #1a73e8;
+}
+
+/************Topbar.css **********/
+.topbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background-color: white;
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f3f4;
+  border-radius: 24px;
+  padding: 10px 12px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.search-icon,
+.filter-icon {
+  width: 16px;
+  height: 16px;
+  color: #5f6368;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 4px 8px;
+  font-size: 14px;
+  outline: none;
+  color: #202124;
+}
+
+.icon-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: 16px;
+}
+
+.topbar-icon {
+  width: 20px;
+  height: 20px;
+  color: #5f6368;
+  cursor: pointer;
+}
+
+.profile-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #064e3b;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
