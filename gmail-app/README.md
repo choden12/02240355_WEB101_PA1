@@ -1,4 +1,4 @@
-# Report on E-Mail
+# Report on G-Mail
 
 # Project overview
 - This assignment application  is base upon Gmail user interface using React, Tailwind CSS html and css ensuring a clean and responsive design . 
@@ -18,7 +18,7 @@
 
 ## Usage
 1. Start the Application
-- npm run dev
+- npm Start
 2. Navigating the UI
 - Sidebar Navigation: Click on options like Inbox, Starred, Sent, Drafts, etc.
 - Top Search Bar: Use the input field at the top to search emails.
